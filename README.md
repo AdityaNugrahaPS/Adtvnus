@@ -1,76 +1,75 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Portfolio Website (Apple-Style) 🍎
 
-<br/>
+Website portfolio personal modern dengan desain minimalis ala Apple, dibangun menggunakan **React**, **Vite**, **TypeScript**, dan **Tailwind CSS**.
 
-<center>
+## ✨ Tech Stack
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+- **Framework:** [React](https://reactjs.org/) (v18)
+- **Build Tool:** [Vite](https://vitejs.dev/) (Super fast build & HMR)
+- **Language:** TypeScript
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** React Icons
 
-</center>
+## 🚀 Cara Menjalankan (Getting Started)
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal Anda.
 
-## TL;DR
+### 1. Prasyarat
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+Pastikan Anda sudah menginstal **Node.js** (versi 16 atau terbaru).
 
-## Built With
+### 2. Instalasi Dependensi
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+Buka terminal di folder proyek dan jalankan:
 
-This project was built using these technologies.
+```bash
+npm install
+```
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+### 3. Menjalankan Development Server
 
-## Features
+Untuk menjalankan website dalam mode development:
 
-**📖 Multi-Page Layout**
+```bash
+npm run dev
+```
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+Website akan berjalan di: **[http://localhost:5173](http://localhost:5173)**
 
-**📱 Fully Responsive**
+### 4. Build untuk Production
 
-## Getting Started
+Untuk membuat versi optimasi yang siap deploy:
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+```bash
+npm run build
+```
 
-## 🛠 Installation and Setup Instructions
+File hasil build akan berada di folder `dist`.
 
-1. Installation: `npm install`
+## 📂 Struktur Proyek
 
-2. In the project directory, you can run: `npm start`
+```
+src/
+├── components/          # Komponen UI
+│   ├── HeroSection.tsx
+│   ├── Navbar.tsx
+│   ├── AboutSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── ResumeSection.tsx
+│   ├── ContactSection.tsx
+│   └── Footer.tsx
+├── App.tsx             # Layout Utama
+└── main.tsx            # Entry Point
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## 🎨 Kustomisasi
 
-## Usage Instructions
+- **Ganti Foto:** Update placeholder di `HeroSection.tsx`.
+- **Update Data:** Edit data text langsung di masing-masing file komponen (misalnya `ResumeSection.tsx` untuk data pengalaman).
+- **Warna & Style:** Sesuaikan konfigurasi di `tailwind.config.js` atau edit `index.css`.
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+---
 
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+_Dibuat dengan ❤️ untuk Aditya Nugraha Pratama Saiya._
+# Website-Portfolio
