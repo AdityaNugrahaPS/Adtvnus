@@ -21,7 +21,7 @@ function MainLayout() {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
          <Routes>
            {/* Public Routes */}
            <Route element={<MainLayout />}>
